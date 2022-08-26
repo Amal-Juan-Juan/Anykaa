@@ -1,0 +1,18 @@
+body{
+    background-image: radial-gradient( white,#655c8aa4);
+    font-size: large;
+}
+section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head{
+    text-decoration: none;
+    color: white;
+    background-color: #655c8aac;
+    padding: 10px 20px;
+    font-size: larger;
+}
+
+.answer{
+    padding: 0 15em 0 15em;
+}

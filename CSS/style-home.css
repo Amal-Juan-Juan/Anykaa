@@ -1,0 +1,40 @@
+section{
+    padding: 0em 2em;
+}
+body{
+  background-color: #e7dfddd1;
+}
+  .img-intro {
+    height: auto;
+    margin: 3%;
+  }
+
+  .section-title-intro {
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 50px;
+  }
+  
+  p{
+    text-align: justify;
+    padding: 0 1em 0 1em;
+  }
+
+  h1,h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #cf869e;
+    /* font-family: "Lucida Console", Monaco, monospace; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  p, ol,ul {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+
+  

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../CSS/style-index.css">
+    <link rel="stylesheet" href="../CSS/style-faq.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,25 +12,27 @@
 <body>
     <header>
         <div class="logo">
-            <img src="imgs/1564282856-carbon.png" alt="logo" width="65px" height="50px">
+            <img src="/imgs/1564282856-carbon.png" alt="logo" width="65px" height="50px">
         </div>
-        <div class="top-nav" align="right">
-            <a class="active" href="index.html">Home</a>&nbsp&nbsp
-            <a href="products.html">Products</a>&nbsp&nbsp
-            <a href="demoform.html">Demo Form</a>&nbsp&nbsp
-            <a href="faq.html">FAQ's</a>&nbsp&nbsp
+        <div class="top-nav">
+          <div class="top-nav-right" >
+            <a class="nav" href="index.html">Home</a>&nbsp&nbsp
+            <a class="nav" href="products.html">Products</a>&nbsp&nbsp
+            <a class="nav" href="demoform.html">Demo Form</a>&nbsp&nbsp
+            <a class="nav-active" href="faq.html">FAQ's</a>&nbsp&nbsp
           </div>
+        </div>
     </header>
-    <hr>
+    <!-- <hr> -->
     <br><br><br>
-    <section align="center">
+    <section class="faq" align="center">
 
-        <a href="#faq-common">Questions commonly asked</a>&nbsp;&nbsp;
-        <a href="#faq-order">Questions about order</a>&nbsp;&nbsp;
-        <a href="#faq-shipping">Questions about shipping</a>&nbsp;&nbsp;
-        <a href="#faq-account">Questions about account</a>&nbsp;&nbsp;
+        <a class="head" href="#faq-common">Questions commonly asked</a>&nbsp;&nbsp;
+        <a class="head" href="#faq-order">Questions about order</a>&nbsp;&nbsp;
+        <a class="head" href="#faq-shipping">Questions about shipping</a>&nbsp;&nbsp;
+        <a class="head" href="#faq-account">Questions about account</a>&nbsp;&nbsp;
         <br><br>
-
+<div class="answer">
         <div id="faq-common"><h3>Common Questions</h3>
             <p><strong>Are there any cancellation charges?</strong><br>
                 There are no separate charges for canceling an item or the complete order.</p>
@@ -81,8 +85,9 @@
                 1. You will always be entitled to 'Subscribe and Save' discount. <br>
                 2. In case your next order is placed during an offer period with higher discount, the higher discount will automatically be applied.</p>
         </div>
+      </div>
     </section>
-    <hr>
+    <!-- <hr> -->
     <br><br>
     <footer align="center">
         <a href="mailto:anykaa@gmail.com" class="footer-link"
